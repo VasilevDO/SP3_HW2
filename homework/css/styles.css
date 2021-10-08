@@ -1,0 +1,70 @@
+/*
+  * Colors references
+
+  header bg-color: #99ccff;
+  footer bg-color: #162b4d;
+  header hover: #162b4d;
+  text color: #484848;
+
+  .post-1 {
+    background: #F3D250;
+  }
+  .post-2 {
+    background: #8D8741;
+  }
+  .post-3 {
+    background: #659DBD;
+  }
+  .post-4 {
+    background: #DAAD86;
+  }
+
+  * Feel free to add new colors if you need it
+ */
+
+
+/* Your styles go here */
+
+html, body {
+  margin:0;
+  padding:0;
+  color:#484848;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #99ccff;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  color:white;
+}
+
+.footer {
+  background-color: #162b4d;
+  color:gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:10px 20px;
+}
+
+.header .nav ul {
+  display:flex;
+}
+
+.header .nav ul > li {
+  margin-right:10px;
+}
+
+.section1 {
+  position:relative;
+  width:100%;
+}
+
+.feed {
+  display:flex;
+}

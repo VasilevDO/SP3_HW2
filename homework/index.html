@@ -12,22 +12,31 @@
 </head>
 
 <body>
-  <header class='header'>
-    <span class='header-logo'>TravelBlog</span>
-    <nav class='nav'>
-      <ul>
-        <li>Blog</li>
-        <li>About</li>
-        <li>Archive</li>
-        <li>Contact</li>
-      </ul>
-    </nav>
+  <header>
+    <div>
+      <div class='header-logo'>
+        <span>Travel</span><span class='text-black'>Blog</span>
+      </div>
+      <nav class='nav'>
+        <div class='hamburger-menu'>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <ul>
+          <li><a href=#>Blog</a></li>
+          <li><a href=#>About</a></li>
+          <li><a href=#>Archive</a></li>
+          <li><a href=#>Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <div class='content'>
     <div class='focused-post'>
       <img src='./img/section1.jpg' />
       <div>
-        <h3>My amazing travel blog</h3>
+        <h2>My amazing travel blog</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aperiam, consequatur culpa nisi asperiores
           consequuntur explicabo nam, voluptatibus tempore non placeat tempora delectus deleniti, alias sed voluptates
@@ -39,38 +48,66 @@
       <div class='posts'>
         <div class='post'>
           <img src='./img/post1.jpg'>
-          <div>
-            <h3>And again - it's totally amazing</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aperiam, consequatur culpa nisi asperiores
-              consequuntur explicabo nam, voluptatibus tempore non placeat tempora delectus deleniti, alias sed
-              voluptates dolores nesciunt.</p>
+          <div class='post-content'>
+            <div>
+              <h2>And again - it's totally amazing</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aperiam, consequatur culpa nisi
+                asperiores
+                consequuntur explicabo nam, voluptatibus tempore non placeat tempora delectus deleniti, alias sed
+                voluptates dolores nesciunt.</p>
+            </div>
+            <div class='post-date'>
+              <p>07</p>
+              <p>mar</p>
+            </div>
           </div>
         </div>
         <div class='post'>
           <img src='./img/post2.jpg'>
-          <div>
-            <h3>Top 10 travel tips</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aperiam, consequatur culpa nisi asperiores
-              consequuntur explicabo nam, voluptatibus tempore non placeat tempora delectus deleniti, alias sed
-              voluptates dolores nesciunt.</p>
+          <div class='post-content'>
+            <div>
+              <h2>Top 10 travel tips</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aperiam, consequatur culpa nisi
+                asperiores
+                consequuntur explicabo nam, voluptatibus tempore non placeat tempora delectus deleniti, alias sed
+                voluptates dolores nesciunt.</p>
+            </div>
+            <div class='post-date'>
+              <p>06</p>
+              <p>mar</p>
+            </div>
           </div>
         </div>
         <div class='post'>
           <img src='./img/post3.jpg'>
-          <div>
-            <h3>Nice minimalist travel</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aperiam, consequatur culpa nisi asperiores
-              consequuntur explicabo nam, voluptatibus tempore non placeat tempora delectus deleniti, alias sed
-              voluptates dolores nesciunt.</p>
+          <div class='post-content'>
+            <div>
+              <h2>Nice minimalist travel</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aperiam, consequatur culpa nisi
+                asperiores
+                consequuntur explicabo nam, voluptatibus tempore non placeat tempora delectus deleniti, alias sed
+                voluptates dolores nesciunt.</p>
+            </div>
+            <div class='post-date'>
+              <p>04</p>
+              <p>mar</p>
+            </div>
           </div>
         </div>
         <div class='post'>
           <img src='./img/post4.jpg'>
-          <div>
-            <h3>With amazing regions</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aperiam, consequatur culpa nisi asperiores
-              consequuntur explicabo nam, voluptatibus tempore non placeat tempora delectus deleniti, alias sed
-              voluptates dolores nesciunt.</p>
+          <div class='post-content'>
+            <div>
+              <h2>With amazing regions</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aperiam, consequatur culpa nisi
+                asperiores
+                consequuntur explicabo nam, voluptatibus tempore non placeat tempora delectus deleniti, alias sed
+                voluptates dolores nesciunt.</p>
+            </div>
+            <div class='post-date'>
+              <p>01</p>
+              <p>mar</p>
+            </div>
           </div>
         </div>
       </div>
@@ -78,19 +115,21 @@
         <div class='new'>
           <img src='./img/news1.jpg'>
           <div>
-            <h3>Breaking news</h3>
+            <h2>Breaking news</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eius explicabo perferendis maxime, ad
               enim, asperiores modi inventore eligendi dignissimos consequatur dolores placeat, nisi omnis quas. Non
               totam in impedit?</p>
+            <button>Learn more...</button>
           </div>
         </div>
         <div class='new'>
           <img src='./img/news2.jpg'>
           <div>
-            <h3>Second news on the Travel blog</h3>
+            <h2>Second news on the Travel blog</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eius explicabo perferendis maxime, ad
               enim, asperiores modi inventore eligendi dignissimos consequatur dolores placeat, nisi omnis quas. Non
               totam in impedit?</p>
+            <button>Learn more...</button>
           </div>
         </div>
       </div>
@@ -98,19 +137,19 @@
     </div>
   </div>
 
-  <footer class='footer'>
-    <span>
-      Copyright 2020, Epam systems
-      </br>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-    </span>
-    <span>
-      Design and coding
-      </br>
-      by name
-    </span>
-
-
+  <footer>
+    <div>
+      <span>
+        Copyright 2020, Epam systems
+        </br>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+      </span>
+      <span>
+        Design and coding
+        </br>
+        by name
+      </span>
+    </div>
   </footer>
 
 </body>
